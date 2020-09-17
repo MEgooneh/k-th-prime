@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Vazir;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.woff2') format('woff2'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.woff') format('woff'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+*{
+    direction: rtl;
+    text-align: center;
+    font-family: Vazir ;
+}
+footer{
+    background : #24272E;
+    text-align : center;
+    padding : 10px;   
+    font-size:15px;
+    color :white  ; 
+    bottom:0;
+}
