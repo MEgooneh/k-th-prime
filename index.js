@@ -3,7 +3,7 @@ function prime_function(){
 var prime_count = 0 ;
 var check ; 
 var input = document.getElementById("Input").value ; 
-for(let i = 2 ; i <= 10e6 ; i++){
+for(let i = 2 ; i <= 10e12 ; i++){
     check = 0 ; 
     for(let j = 2 ; j**2 <= i ; j++ ){
         if(i%j == 0){
